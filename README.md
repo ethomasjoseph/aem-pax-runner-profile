@@ -6,15 +6,20 @@ This profiles listed here are intended for used with [Pax Runner](https://ops4j1
 
 This project is provided with an intent of starting quickly in OSGifying vanilla jars for AEM, and is in no way any endorsement from Adobe or other entities.
 
+### Features
+* Felix Web Console - accessible at [http://localhost:8080/system/console](http://localhost:8080/system/console) (admin:admin)
+* Starts with Felix Gogo Shell
+
+
 ### Example Usage:
 
 *AEM 5.6.1*
 
-	pax-run --args=aem-5.6.1.args
+	pax-run --args=file:aem-5.6.1.args
 	
 *AEM 6.1.0*
 
-	pax-run --args=aem-6.1.0.args
+	pax-run --args=file:aem-6.1.0.args
 	
 ## Contributing
 If you find this useful, and feel that you have made it better, please consider contributing it back through pull request.
